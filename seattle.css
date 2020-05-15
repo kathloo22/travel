@@ -1,0 +1,282 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  background-color: #F8F8F8;
+
+}
+
+.intro{
+  margin-left:150px;
+  margin-top:40px;
+  margin-bottom:50px;
+}
+.sidenav {
+  height: 40%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F8F8F8;
+  overflow-x: hidden;
+  padding-top: 40px;
+  border-right: solid red 2px;
+}
+
+.sidenav a {
+  padding: 0px 8px 60px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: inline-block;
+}
+.sidenav a:hover {
+  color: red;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-bottom:60px;
+    font-size:0;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 30px;}
+  .sidenav a {font-size: 18px;}
+}
+​
+/* Create two equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* bottom nav */
+#footer .next{
+  position: absolute;
+  right: 550px;
+  margin-bottom: 60px;
+
+}
+#footer .previous{
+  position: absolute;
+  left: 650px;
+  margin-bottom: 60px;
+}
+
+.next{
+  text-decoration:none;
+  color: white;
+  background-color:red;
+  border-radius:30px;
+  padding: 10px 20px;
+}
+
+.next:hover{
+  color:red;
+  background-color:white;
+  border: solid 1px red;
+}
+.previous{
+  text-decoration:none;
+  color: white;
+  background-color:red;
+  border-radius:30px;
+  padding: 10px 20px;
+
+}
+.previous:hover{
+  color:red;
+  background-color:white;
+  border: solid 1px red;
+}
+
+
+/* my content */
+.sea1 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/1.png");
+}
+
+.sea1:hover {
+  background-image: url("gifs/sea1.gif");
+}
+
+.sea2 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/2.png");}
+
+.sea2:hover {
+  background-image: url("gifs/sea2.gif");}
+
+.sea3 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/3.png");}
+
+.sea3:hover {
+  background-image: url("gifs/sea3.gif");}
+
+.sea4 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/4.png");}
+
+.sea5 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/5.png");
+}
+
+.sea5:hover {
+  background-image: url("gifs/sea5.gif");}
+
+.sea6 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/6.png");}
+
+.sea7 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/7.png");}
+
+.sea7:hover {
+  background-image: url("gifs/sea7.gif");}
+
+.sea8 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/8.png");}
+
+.sea9 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/9.png");}
+
+.sea10 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/10.png");}
+
+.sea10:hover {
+  background-image: url("gifs/sea10.gif");}
+
+.sea11 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/11.png");}
+
+.sea11:hover {
+  background-image: url("gifs/sea11.gif");}
+
+.sea12 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/12.png");}
+
+.sea12:hover {
+  background-image: url("gifs/sea12.gif");}
+
+.sea13 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/13.png");}
+
+.sea13:hover {
+  background-image: url("gifs/sea13.gif");}
+
+.sea14 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/14.png")}
+
+.sea14:hover {
+  background-image: url("gifs/sea14.gif");}
+
+.sea15 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/15.png");}
+
+.sea15:hover {
+  background-image: url("gifs/sea15.gif");}
+
+.sea16 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/16.png");}
+
+.sea16:hover {
+  background-image: url("gifs/sea16.gif");}
+
+.sea17 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/17.png");}
+
+.sea17:hover {
+  background-image: url("gifs/sea17.gif");}
+
+.sea18 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/18.png");}
+
+.sea18:hover {
+  background-image: url("gifs/sea18.gif");}
+.sea19 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/19.png");}
+
+.sea19:hover {
+  background-image: url("gifs/sea19.gif");}
+
+.sea20 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/20.png");}
+
+.sea20:hover {
+  background-image: url("gifs/sea20.gif");}
+
+.sea21 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/21.png");}
+
+.sea21:hover {
+  background-image: url("gifs/sea21.gif");}

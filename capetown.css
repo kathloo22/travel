@@ -1,0 +1,284 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  background-color: #F8F8F8;
+
+}
+
+.intro{
+  margin-left:150px;
+  margin-top:40px;
+  margin-bottom:50px;
+}
+.sidenav {
+  height: 40%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F8F8F8;
+  overflow-x: hidden;
+  padding-top: 40px;
+  border-right: solid red 2px;
+}
+
+.sidenav a {
+  padding: 0px 8px 60px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: inline-block;
+}
+.sidenav a:hover {
+  color: red;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-bottom:60px;
+    font-size:0;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 30px;}
+  .sidenav a {font-size: 18px;}
+}
+​
+/* Create two equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* bottom nav */
+#footer .next{
+  position: absolute;
+  right: 550px;
+  margin-bottom: 60px;
+
+}
+#footer .previous{
+  position: absolute;
+  left: 650px;
+  margin-bottom: 60px;
+}
+
+.next{
+  text-decoration:none;
+  color: white;
+  background-color:red;
+  border-radius:30px;
+  padding: 10px 20px;
+}
+
+.next:hover{
+  color:red;
+  background-color:white;
+  border: solid 1px red;
+}
+.previous{
+  text-decoration:none;
+  color: white;
+  background-color:red;
+  border-radius:30px;
+  padding: 10px 20px;
+
+}
+.previous:hover{
+  color:red;
+  background-color:white;
+  border: solid 1px red;
+}
+
+
+/* my content */
+.ct1 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/1.png");
+  margin:0px;
+  padding:0px;
+}
+
+.ct2 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/2.png");
+}
+
+.ct2:hover {
+  background-image: url("gifs/ct2.gif");
+}
+
+.ct3 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/3.png");
+}
+
+.ct4 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/4.png");}
+
+.ct4:hover {
+  background-image: url("gifs/ct4.gif");
+}
+
+.ct5 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/5.png");}
+
+.ct5:hover {
+  background-image: url("gifs/ct5.gif");}
+
+.ct6 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/6.png");}
+
+.ct6:hover {
+  background-image: url("gifs/ct6.gif");}
+
+.ct7 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/7.png");}
+
+.ct7:hover {
+  background-image: url("gifs/ct7.gif");}
+
+.ct8 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/8.png");}
+
+.ct8:hover {
+  background-image: url("gifs/ct8.gif");}
+
+.ct9 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/9.png");}
+
+.ct9:hover {
+  background-image: url("gifs/ct9.gif");}
+.ct10 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/10.png");}
+
+.ct10:hover {
+  background-image: url("gifs/ct10.gif");}
+
+.ct11 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/11.png");}
+
+.ct11:hover {
+  background-image: url("gifs/ct11.gif");}
+
+.ct12 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/12.png");}
+
+.ct12:hover {
+  background-image: url("gifs/ct12.gif");}
+
+.ct13 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/13.png");}
+
+.ct13:hover {
+  background-image: url("gifs/ct13.gif");}
+
+.ct14 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/14.png");}
+
+.ct14:hover {
+  background-image: url("gifs/ct14.gif");}
+
+.ct15 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/15.png");}
+
+.ct15:hover {
+  background-image: url("gifs/ct15.gif");}
+.ct16 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/16.png");}
+
+.ct16:hover {
+  background-image: url("gifs/ct16.gif");}
+
+.ct17 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/17.png");}
+
+.ct17:hover {
+  background-image: url("gifs/ct17.gif");}
+
+.ct18 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/18.png");}
+
+.ct18:hover {
+  background-image: url("gifs/ct18.gif");}
+.ct19 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/19.png");}
+
+
+.ct20 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/20.png");}
+
+
+
+.ct21 {
+  width:400px;
+  height:300px;
+  display: inline-block;
+  background: transparent url("sketch/21.png");}
